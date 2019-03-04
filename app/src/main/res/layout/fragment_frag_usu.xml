@@ -9,7 +9,7 @@
     <!-- TODO: Update blank fragment layout -->
 
     <android.support.constraint.ConstraintLayout
-        android:id="@+id/ContUsua"
+        android:id="@+id/contUsua"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
@@ -98,6 +98,7 @@
             android:layout_marginRight="109dp"
             android:layout_marginBottom="23dp"
             android:background="@drawable/iconocompra"
+            android:onClick="agregarFragCat"
             app:layout_constraintBottom_toTopOf="@+id/botonVol"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
