@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.arch.persistence.room.Room;
 
@@ -35,7 +36,7 @@ public class Principal extends Activity {
     public void agregarFragSis (View v) {
         FragmentManager miManejador=getFragmentManager();
         FragmentTransaction miTransaccion =miManejador.beginTransaction();
-        FragUsu miFragmento=new FragUsu();
+        FragSis miFragmento=new FragSis();
         miTransaccion.replace(R.id.contAct,miFragmento);
         miTransaccion.commit();
     }
@@ -45,6 +46,15 @@ public class Principal extends Activity {
         FragPrincipal miFragmento=new FragPrincipal();
         miTransaccion.replace(R.id.contAct,miFragmento);
         miTransaccion.commit();
+    }
+    public void nuevoUsuario(View v){
+        FragmentManager miManejador=getFragmentManager();
+        FragmentTransaction miTransaccion =miManejador.beginTransaction();
+        agregarUsu miNuevoUsuario;
+        miNuevoUsuario=new agregarUsu();
+        miTransaccion.replace(R.id.contAct,miNuevoUsuario);
+        miTransaccion.commit();
+
     }
 
 

@@ -16,43 +16,42 @@
         <TextView
             android:id="@+id/textView"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="154dp"
-            android:layout_marginLeft="154dp"
-            android:layout_marginTop="71dp"
-            android:layout_marginEnd="183dp"
-            android:layout_marginRight="183dp"
-            android:layout_marginBottom="24dp"
+            android:layout_height="42dp"
+            android:layout_marginStart="131dp"
+            android:layout_marginLeft="131dp"
+            android:layout_marginTop="38dp"
+            android:layout_marginEnd="172dp"
+            android:layout_marginRight="172dp"
+            android:layout_marginBottom="16dp"
             android:text="Usuario"
-            android:textSize="24sp"
+            android:textSize="36sp"
             app:layout_constraintBottom_toTopOf="@+id/botonUsu"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_chainStyle="spread_inside" />
+            app:layout_constraintTop_toTopOf="parent" />
 
         <ImageButton
             android:id="@+id/botonUsu"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="148dp"
+            android:layout_height="154dp"
             android:layout_marginStart="97dp"
             android:layout_marginLeft="97dp"
             android:layout_marginTop="24dp"
             android:layout_marginEnd="135dp"
             android:layout_marginRight="135dp"
             android:layout_marginBottom="261dp"
+            android:background="@drawable/iconousuario"
             android:onClick="agregarFragUsu"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView"
-            tools:src="@tools:sample/avatars[0]" />
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
 
         <TextView
             android:id="@+id/textView2"
-            android:layout_width="wrap_content"
-            android:layout_height="39dp"
+            android:layout_width="154dp"
+            android:layout_height="49dp"
             android:layout_marginStart="138dp"
             android:layout_marginLeft="138dp"
             android:layout_marginTop="32dp"
@@ -60,27 +59,29 @@
             android:layout_marginRight="159dp"
             android:layout_marginBottom="14dp"
             android:text="Sistema"
-            android:textSize="24sp"
+            android:textSize="36sp"
             app:layout_constraintBottom_toTopOf="@+id/botonSis"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.622"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/botonUsu" />
 
         <ImageButton
             android:id="@+id/botonSis"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="155dp"
+            android:layout_height="159dp"
             android:layout_marginStart="116dp"
             android:layout_marginLeft="116dp"
             android:layout_marginTop="14dp"
             android:layout_marginEnd="116dp"
             android:layout_marginRight="116dp"
             android:layout_marginBottom="32dp"
+            android:background="@drawable/iconosistema"
             android:onClick="agregarFragSis"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView2"
-            tools:src="@tools:sample/avatars[3]" />
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
     </android.support.constraint.ConstraintLayout>
 </FrameLayout>

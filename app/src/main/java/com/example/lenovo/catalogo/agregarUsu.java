@@ -8,7 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
-
+import android.widget.Toast;
 
 
 /**
@@ -31,7 +31,7 @@ public class agregarUsu extends Fragment implements View.OnClickListener {
         // Inflate the layout for this fragment
         View vista=inflater.inflate(R.layout.fragment_agregar_usu,container, false);
 
-        Usua=vista.findViewById(R.id.ingUsua);
+        Usua=(EditText) vista.findViewById(R.id.ingUsua);
         botonReg=(Button) vista.findViewById(R.id.botonReg);
         botonReg.setOnClickListener(this);
 
@@ -47,7 +47,9 @@ public class agregarUsu extends Fragment implements View.OnClickListener {
 
         Usuario.setUsua(NuevoUsuario);
 
-//Falta poner lo de miDatabase, ver actividad principal
+        Principal.miDatabase.dao().addUsuario(Usuario);
+
+        Toast.makeText(getActivity(),"Usted se ha registrado",Toast.LENGTH_SHORT).show();
 
     }
 }

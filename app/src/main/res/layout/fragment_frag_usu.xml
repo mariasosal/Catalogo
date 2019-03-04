@@ -23,8 +23,9 @@
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginBottom="27dp"
+            android:background="@color/colorAccent"
             android:onClick="devolver"
-            android:text="Volver al Menu"
+            android:text="Volver al Inicio"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -34,28 +35,73 @@
             android:id="@+id/ingUsua"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="63dp"
+            android:layout_marginLeft="63dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="36dp"
+            android:layout_marginRight="36dp"
+            android:layout_marginBottom="4dp"
             android:ems="10"
             android:hint="Usuario"
             android:inputType="textPersonName"
             android:textSize="24sp"
-            tools:layout_editor_absoluteX="50dp"
-            tools:layout_editor_absoluteY="137dp" />
+            app:layout_constraintBottom_toTopOf="@+id/botonReg"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtUsu1" />
 
         <TextView
             android:id="@+id/txtUsu1"
             android:layout_width="310dp"
-            android:layout_height="79dp"
+            android:layout_height="77dp"
+            android:layout_marginStart="46dp"
+            android:layout_marginLeft="46dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="28dp"
+            android:layout_marginRight="28dp"
+            android:layout_marginBottom="17dp"
             android:text="Ingrese un usuario para hacer su pedido:"
             android:textSize="24sp"
-            tools:layout_editor_absoluteX="46dp"
-            tools:layout_editor_absoluteY="47dp" />
+            app:layout_constraintBottom_toTopOf="@+id/ingUsua"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <Button
             android:id="@+id/botonReg"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="49dp"
+            android:layout_marginStart="122dp"
+            android:layout_marginLeft="122dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="147dp"
+            android:layout_marginRight="147dp"
+            android:layout_marginBottom="197dp"
+            android:onClick="nuevoUsuario"
             android:text="Registrarse"
-            tools:layout_editor_absoluteX="122dp"
-            tools:layout_editor_absoluteY="194dp" />
+            app:layout_constraintBottom_toTopOf="@+id/botonVol"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ingUsua"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageButton
+            android:id="@+id/botonCatalogo"
+            android:layout_width="165dp"
+            android:layout_height="165dp"
+            android:layout_marginStart="110dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginEnd="109dp"
+            android:layout_marginRight="109dp"
+            android:layout_marginBottom="23dp"
+            android:background="@drawable/iconocompra"
+            app:layout_constraintBottom_toTopOf="@+id/botonVol"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/botonReg" />
+
     </android.support.constraint.ConstraintLayout>
 </FrameLayout>
