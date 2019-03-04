@@ -14,7 +14,7 @@
         android:layout_height="match_parent">
 
         <Button
-            android:id="@+id/botonVol"
+            android:id="@+id/volver1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="226dp"
@@ -80,7 +80,7 @@
             android:layout_marginBottom="197dp"
             android:onClick="nuevoUsuario"
             android:text="Registrarse"
-            app:layout_constraintBottom_toTopOf="@+id/botonVol"
+            app:layout_constraintBottom_toTopOf="@+id/volver1"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
@@ -99,7 +99,7 @@
             android:layout_marginBottom="23dp"
             android:background="@drawable/iconocompra"
             android:onClick="agregarFragCat"
-            app:layout_constraintBottom_toTopOf="@+id/botonVol"
+            app:layout_constraintBottom_toTopOf="@+id/volver1"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/botonReg" />

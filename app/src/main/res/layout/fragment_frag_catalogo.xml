@@ -14,7 +14,7 @@
         android:layout_height="match_parent">
 
         <Button
-            android:id="@+id/botonAtras"
+            android:id="@+id/atras4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="145dp"
@@ -25,15 +25,15 @@
             android:layout_marginBottom="16dp"
             android:background="@color/colorAccent"
             android:onClick="atrasUsu"
-            android:text="Volver"
+            android:text="Atras"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/botonVolv"
+            app:layout_constraintEnd_toStartOf="@+id/volver6"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="1.0" />
 
         <Button
-            android:id="@+id/botonVolv"
+            android:id="@+id/volver6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="19dp"
@@ -47,7 +47,7 @@
             android:text="Volver al inicio"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/botonAtras"
+            app:layout_constraintStart_toEndOf="@+id/atras4"
             app:layout_constraintTop_toTopOf="parent" />
     </android.support.constraint.ConstraintLayout>
 </FrameLayout>

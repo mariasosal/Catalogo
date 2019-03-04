@@ -14,7 +14,7 @@
         android:layout_height="match_parent">
 
         <Button
-            android:id="@+id/botonVolver4"
+            android:id="@+id/vovler4"
             android:layout_width="142dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="31dp"
@@ -46,7 +46,7 @@
             android:onClick="atrasSis"
             android:text="Atras"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/botonVolver4"
+            app:layout_constraintEnd_toStartOf="@+id/vovler4"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
     </android.support.constraint.ConstraintLayout>
