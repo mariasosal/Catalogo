@@ -13,11 +13,11 @@ import android.widget.TextView;
 
 public class Principal extends Activity {
     //Cambiar fuente
-    private TextView texto1;
+ /*   private TextView texto1;
     private TextView texto2;
 
     private Typeface titulo;
-    private Typeface botones;
+    private Typeface botones;*/
 
  public static DBUsuario miDatabase;
     @Override
@@ -26,7 +26,7 @@ public class Principal extends Activity {
         setContentView(R.layout.activity_principal);
 
         //Fuente
-        String fuente1="/fuentes/titulo.otf";
+      /*  String fuente1="/fuentes/titulo.otf";
         this.titulo=Typeface.createFromAsset(getAssets(),fuente1);
         String fuente2="/fuentes/botones.otf";
         this.botones=Typeface.createFromAsset(getAssets(),fuente2);
@@ -36,7 +36,7 @@ public class Principal extends Activity {
         texto1 =(TextView) findViewById(R.id.text2);
         texto1.setTypeface(titulo);
         texto2=(TextView) findViewById(R.id.txtUsu1);
-        texto2.setTypeface(botones);
+        texto2.setTypeface(botones);*/
 
 
         miDatabase  = Room.databaseBuilder(getApplicationContext(),DBUsuario.class,"ubicaciondb").allowMainThreadQueries().build();
