@@ -91,6 +91,13 @@ public class Principal extends Activity {
         miTransaccion.replace(R.id.contAct,miFragmento);
         miTransaccion.commit();
     }
+    public void comprar (View v) {
+        FragmentManager miManejador=getFragmentManager();
+        FragmentTransaction miTransaccion =miManejador.beginTransaction();
+        factura miFragmento=new factura();
+        miTransaccion.replace(R.id.contAct,miFragmento);
+        miTransaccion.commit();
+    }
     public void devolver (View v) {
         FragmentManager miManejador=getFragmentManager();
         FragmentTransaction miTransaccion =miManejador.beginTransaction();
