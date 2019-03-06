@@ -1,14 +1,13 @@
-package com.example.lenovo.catalogo;
+package com.example.lenovo.LAPOLA;
 
 import android.app.Activity;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
-import android.graphics.Typeface;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.arch.persistence.room.Room;
-import android.widget.TextView;
+
+import com.example.lenovo.catalogo.R;
 
 
 public class Principal extends Activity {

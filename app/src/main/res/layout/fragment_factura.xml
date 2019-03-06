@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".factura">
+    tools:context="com.example.lenovo.LAPOLA.factura">
 
     <!-- TODO: Update blank fragment layout -->
 
@@ -23,7 +23,7 @@
             android:layout_marginEnd="66dp"
             android:layout_marginRight="66dp"
             android:layout_marginBottom="311dp"
-            android:text="En este contenedor se vera la factura de la compra del usuario"
+            android:text="En este contenedor se generara la factura del usuario al hacer su compra"
             android:textSize="24sp"
             app:layout_constraintBottom_toTopOf="@+id/vovler4"
             app:layout_constraintEnd_toEndOf="parent"

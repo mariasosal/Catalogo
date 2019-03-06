@@ -1,6 +1,5 @@
-package com.example.lenovo.catalogo;
+package com.example.lenovo.LAPOLA;
 
-import android.arch.persistence.room.Dao;
 import android.arch.persistence.room.Database;
 import android.arch.persistence.room.RoomDatabase;
 

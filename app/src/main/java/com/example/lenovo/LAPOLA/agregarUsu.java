@@ -1,4 +1,4 @@
-package com.example.lenovo.catalogo;
+package com.example.lenovo.LAPOLA;
 
 
 import android.os.Bundle;
@@ -9,6 +9,8 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import com.example.lenovo.catalogo.R;
 
 
 /**

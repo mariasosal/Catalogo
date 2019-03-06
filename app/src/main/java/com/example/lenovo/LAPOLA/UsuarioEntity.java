@@ -1,4 +1,4 @@
-package com.example.lenovo.catalogo;
+package com.example.lenovo.LAPOLA;
 
 import android.arch.persistence.room.Entity;
 import android.arch.persistence.room.PrimaryKey;
